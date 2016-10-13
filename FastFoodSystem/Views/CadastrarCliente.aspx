@@ -81,7 +81,7 @@
 
                         <label class="control-label col-sm-2" for="cep">CEP:</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" id="cep" placeholder="Digite o nome da CEP da rua em que reside">
+                            <input type="number" class="form-control" id="cep" placeholder="Digite o CEP da rua em que reside">
                         </div>
                     </div>
                 </div>

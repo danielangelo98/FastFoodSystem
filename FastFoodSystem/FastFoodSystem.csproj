@@ -105,7 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Class\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -178,6 +177,15 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Class\Cliente.cs" />
+    <Compile Include="Class\Endereco.cs" />
+    <Compile Include="Class\Entregador.cs" />
+    <Compile Include="Class\Fornecedor.cs" />
+    <Compile Include="Class\Funcionario.cs" />
+    <Compile Include="Class\Pedido.cs" />
+    <Compile Include="Class\PessoaFisica.cs" />
+    <Compile Include="Class\PessoaJuridica.cs" />
+    <Compile Include="Class\Produto.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
